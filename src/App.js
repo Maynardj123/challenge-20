@@ -25,7 +25,7 @@ function App() {
     case  "/portfolio":
       navs = <Portfolio />
       break
-    case "/contact":
+    case "/Contact":
       navs = <Contact />
       break
     case "/resume":

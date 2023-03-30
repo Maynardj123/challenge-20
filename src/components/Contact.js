@@ -3,6 +3,7 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
+import '../styles/Contact.css';
 
 export const Contact = () => {
   
