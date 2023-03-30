@@ -6,6 +6,7 @@ function Header() {
   return (
     <header className="header">
       <h1>Jacob Maynard</h1>
+      {/* <a href="/"></a> */}
     </header>
   );
 }
