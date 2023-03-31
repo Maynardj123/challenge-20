@@ -2,20 +2,20 @@ import React from 'react';
 import "../styles/Navbar.css";
 
 
-const styles = {
-  // card: {
-  //   // margin: 20,
-  //   background: '#e8eaf6',
-  // },
-  // heading: {
-  //   background: '#9a74db',
-  //   minHeight: 50,
-  //   lineHeight: 3.5,
-  //   fontSize: '1.2rem',
-  //   color: 'white',
-  //   padding: '0 20px',
-  // },
-};
+// const styles = {
+//   // card: {
+//   //   // margin: 20,
+//   //   background: '#e8eaf6',
+//   // },
+//   // heading: {
+//   //   background: '#9a74db',
+//   //   minHeight: 50,
+//   //   lineHeight: 3.5,
+//   //   fontSize: '1.2rem',
+//   //   color: 'white',
+//   //   padding: '0 20px',
+//   // },
+// };
 
 
 function Navbar() {
@@ -23,16 +23,16 @@ function Navbar() {
     <nav className="nav">
     <ul>
       <li>
-        <a href="/About">About me</a>
+        <a href="/about">About me</a>
       </li>
       <li>
-        <a href="/Portfolio">Portfolio</a>
+        <a href="/portfolio">Portfolio</a>
       </li>
       <li>
-        <a href="/Contact">Contact</a>
+        <a href="/contact">Contact</a>
       </li>
       <li>
-        <a href="/Resume">Resume</a>
+        <a href="/resume">Resume</a>
       </li>
       
     </ul>

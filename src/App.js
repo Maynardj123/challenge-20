@@ -25,19 +25,20 @@ function App() {
     case  "/portfolio":
       navs = <Portfolio />
       break
-    case "/Contact":
+    case "/contact":
       navs = <Contact />
       break
     case "/resume":
       navs = <Resume />
       break
+      default:
+        console.log("something went wrong")
   }
   return (
     <div>
       <Header />
       <Navbar />
       {navs}
-      {/* <Contact /> */}
       <Footer />
       {/* <Project /> */}
     </div>

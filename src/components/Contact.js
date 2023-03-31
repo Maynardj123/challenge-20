@@ -28,11 +28,11 @@ export const Contact = () => {
   return (
     <form  onSubmit={sendEmail}>
       <label></label>
-      <input type="text" name="user_name" placeholder="Name"/>
+      <input required type="text" name="user_name" placeholder="Name"/>
       <label></label>
-      <input type="email" name="user_email" placeholder="Email"/>
+      <input required type="email" name="user_email" placeholder="Email"/>
       <label></label>
-      <textarea name="message" placeholder="Your message"/>
+      <textarea required name="message" placeholder="Your message"/>
       <input type="submit" value="Send" />
     </form>
   );
