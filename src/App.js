@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 import Header from './components/Header';
+import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 
 // import Project from './components/Project';
@@ -17,7 +18,7 @@ function App() {
   let navs 
   switch (window.location.pathname) {
     case "/":
-      navs = <App />
+      navs = <Homepage />
       break
     case "/about":
       navs = <About />
@@ -32,7 +33,7 @@ function App() {
       navs = <Resume />
       break
       default:
-        console.log("something went wrong")
+        console.log("Nav went wrong")
   }
   return (
     <div>
@@ -40,7 +41,6 @@ function App() {
       <Navbar />
       {navs}
       <Footer />
-      {/* <Project /> */}
     </div>
   );
 }
