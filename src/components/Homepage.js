@@ -4,13 +4,68 @@
 // page for more projects, add another contact page below that.
 
 import React from 'react';
+import Contact from './Contact.js'
 
 import '../styles/Homepage.css';
 
 function Homepage() {
     return (
         <body>
-            <h1>test</h1>
+            <div className="bioContainer">
+            <div id="nameBox"></div>
+                <h1 id="title">I'm a Full Stack Web Developer</h1>
+                <div className="myBio">
+                    <p id="bioInfo">I am excited to pursue a career in Full Stack web development. It offers an opportunity to work on
+                        both the front-end and back-end aspects of web applications, which means I can design user interfaces,
+                        implement business logic, and manage databases. I have a strong understanding of various programming
+                        languages such as HTML, CSS, JavaScript, and database management systems, which will be critical in
+                        my pursuit of this career. To stay up-to-date with the latest web development trends and best
+                        practices, I am committed to continuous learning and growth. I find the idea of creating functional
+                        and aesthetically pleasing web applications incredibly satisfying, and I am excited about the
+                        prospects of becoming a Full Stack web developer. With the rapid advancement of technology,
+                        Full Stack web development remains an in-demand and valuable skill set for companies across various
+                        industries. I am thrilled about the opportunities that pursuing a career in Full Stack web development will present.
+                    </p>
+                    <div id="photoBox"></div>
+                    <img id="firstPhoto" src={require("../styles/images/photoatdesk.jpg")}></img>
+                </div>
+                <button type="button">More about me</button>
+            </div>
+
+            <div>
+                <h1>Skills</h1>
+                <ul className="skillList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>MySQL</li>
+                    <li>NoSQL</li>
+                    <li>React.js</li>
+                    <li>Jest</li>
+                    <li>Webpack</li>
+                    <li>Insomnia</li>
+                    <li>Mongodb</li>
+                    <li>REST APIs</li>
+                    <li>Handlebar.js</li>
+                    <li>Materialize</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Projects</h1>
+                <ul>
+                    <li>(have a project name and picture here)</li>
+                    <li>(have a project name and picture here)</li>
+                    <li>(have a project name and picture here)</li>
+                </ul>
+                <button type="button">More Projects</button>
+            </div>
+
+             <div>
+                <Contact />
+             </div>
         </body>
     )
 }

@@ -26,15 +26,15 @@ export const Contact = () => {
   };
 
   return (
+    <div className="container">
     <form  onSubmit={sendEmail}>
-      <label></label>
+      {/* <h1>Get in touch</h1> */}
       <input required type="text" name="user_name" placeholder="Name"/>
-      <label></label>
       <input required type="email" name="user_email" placeholder="Email"/>
-      <label></label>
       <textarea required name="message" placeholder="Your message"/>
       <input type="submit" value="Send" />
     </form>
+    </div>
   );
 };
 

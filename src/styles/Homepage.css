@@ -1,0 +1,67 @@
+.bioContainer {
+    background-color: cornsilk;
+}
+#title {
+    padding-left: 5%;
+}
+.myBio {
+    display: grid;
+}
+
+#firstPhoto {
+    min-width: 30%;
+    max-width: 40%;
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 45%;
+
+    --_g: 10% /46% 46% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    transition: .3s linear;
+    cursor: pointer;
+
+}
+img:hover {
+    --_i: 90% 
+}
+
+#photoBox {
+    background-color: blue;
+    width: 76%;
+    height: 10%;
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    opacity: 20%;
+}
+#nameBox {
+    background-color: blue;
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 24%;
+    left: 2%;
+    opacity: 10%;
+}
+#bioInfo {
+    padding-top: 2%;
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/3;
+    grid-row: 2/2;
+    padding-left: 5%;
+}
+
+.skillList {
+    /* display: grid; */
+    columns: 3;
+}
+
