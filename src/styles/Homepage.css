@@ -70,7 +70,7 @@
     height: 3%;
 }
 
-
+/* ----------------------------------------Skills Section------------------------------------------ */
 
 .skillsContainer {
     margin-bottom: 5%;
@@ -83,13 +83,30 @@
 }
 
 
-
+/* ----------------------------------------Project Section------------------------------------------ */
 
 .projectsContainer {
     margin-bottom: 5%;
     background-color: lavender;
+
+}
+.project {
+    display: grid;
+}
+#project1, #project2, #project3 {
+    width: 90%;
 }
 
-#project1, #project2, #project3 {
-    width: 10%;
+.grp1 {
+    grid-row: 1/3;
+}
+
+.grp2 {
+    grid-column: ;
+    grid-row: 1/3;
+}
+
+.grp3 {
+    grid-column: ;
+    grid-row: 1/3;
 }

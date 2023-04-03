@@ -55,22 +55,22 @@ function Homepage() {
 
             <div className="projectsContainer">
                 <h1>Projects</h1>
-
-                <div>
+                <div className="project">
+                <div className="grp1">
                 <h2>project1</h2>
                 <img id="project1" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
                 </div>
 
-                <div>
+                <div className="grp2">
                 <h2>project2</h2>
                 <img id="project2" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
                 </div>
 
-                <div>
+                <div className="grp3">
                 <h2>project3</h2>
                 <img id="project3" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
                 </div>
-
+                </div>
                 {/* <ul>
                     <li>(have a project name and picture here)</li>
                     <li>(have a project name and picture here)</li>
