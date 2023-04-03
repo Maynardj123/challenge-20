@@ -29,10 +29,10 @@ function Homepage() {
                     <div id="photoBox"></div>
                     <img id="firstPhoto" src={require("../styles/images/photoatdesk.jpg")}></img>
                 </div>
-                <button type="button">More about me</button>
+                <button id="aboutBtn" type="button">More about me</button>
             </div>
 
-            <div>
+            <div className="skillsContainer">
                 <h1>Skills</h1>
                 <ul className="skillList">
                     <li>HTML</li>
@@ -53,13 +53,29 @@ function Homepage() {
                 </ul>
             </div>
 
-            <div>
+            <div className="projectsContainer">
                 <h1>Projects</h1>
-                <ul>
+
+                <div>
+                <h2>project1</h2>
+                <img id="project1" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
+                </div>
+
+                <div>
+                <h2>project2</h2>
+                <img id="project2" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
+                </div>
+
+                <div>
+                <h2>project3</h2>
+                <img id="project3" src={require("../styles/images/projectImages/patrick-tomasso-QMDap1TAu0g-unsplash.jpg")}></img>
+                </div>
+
+                {/* <ul>
                     <li>(have a project name and picture here)</li>
                     <li>(have a project name and picture here)</li>
                     <li>(have a project name and picture here)</li>
-                </ul>
+                </ul> */}
                 <button type="button">More Projects</button>
             </div>
 

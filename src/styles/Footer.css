@@ -9,10 +9,13 @@
 
 }
 .logos {
-    display:inline;
-    justify-content: space-between;
+    /* display:inline;
+    justify-content: space-between; */
+
+
 }
 
 Footer {
     background-color: aqua;
+
 }
