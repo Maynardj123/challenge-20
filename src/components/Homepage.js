@@ -35,21 +35,21 @@ function Homepage() {
             <div className="skillsContainer">
                 <h1>Skills</h1>
                 <ul className="skillList">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Node.js</li>
-                    <li>MySQL</li>
-                    <li>NoSQL</li>
-                    <li>React.js</li>
-                    <li>Jest</li>
-                    <li>Webpack</li>
-                    <li>Insomnia</li>
-                    <li>Mongodb</li>
-                    <li>REST APIs</li>
-                    <li>Handlebar.js</li>
-                    <li>Materialize</li>
-                    <li>Bootstrap</li>
+                    <li className="skillItem">HTML</li>
+                    <li className="skillItem">CSS</li>
+                    <li className="skillItem">Javascript</li>
+                    <li className="skillItem">Node.js</li>
+                    <li className="skillItem">MySQL</li>
+                    <li className="skillItem">NoSQL</li>
+                    <li className="skillItem">React.js</li>
+                    <li className="skillItem">Jest</li>
+                    <li className="skillItem">Webpack</li>
+                    <li className="skillItem">Insomnia</li>
+                    <li className="skillItem">Mongodb</li>
+                    <li className="skillItem">REST APIs</li>
+                    <li className="skillItem">Handlebar.js</li>
+                    <li className="skillItem">Materialize</li>
+                    <li className="skillItem">Bootstrap</li>
                 </ul>
             </div>
 

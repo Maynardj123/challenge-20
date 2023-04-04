@@ -78,8 +78,17 @@
 }
 
 .skillList {
-    /* display: grid; */
-    columns: 3;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* columns: 3; */
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  list-style-type: none;
+}
+
+.skillItem {
+    border-style:double;
 }
 
 
@@ -110,3 +119,4 @@
     grid-column: ;
     grid-row: 1/3;
 }
+
